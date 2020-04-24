@@ -1,0 +1,513 @@
+/*
+    Theme Name: Maundy
+    Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+body {
+	line-height: 1.2;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed !important;
+}
+
+input {
+    outline: none !important;
+}
+
+button {
+    outline: none !important;
+}
+
+.modal-dialog {
+    height: 100vh !important;
+    display: flex;
+  }
+  
+  .modal-content {
+    margin: auto !important;
+    height: fit-content !important;
+  }
+  
+
+@media screen and (max-width: 762px) {
+    body {
+        background: #ffffff url('../img/bg.jpg');
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain;
+    }
+    .modal-image {
+        height: 25px;
+    }
+    li {
+        font-size: 13px !important;
+    }
+    .timer {
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and (min-width: 763px) {
+    body {
+        background: #ffffff url('../img/banner011.jpg');
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+    }
+    .modal-image {
+        height: 40px;
+    }
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************
+***********************************/
+/**********************************
+***********************************/
+.content
+{
+	margin-top: 50px;
+	color: #fff;
+}
+.logo img
+{
+	display: inline-block;
+}
+.logo h2
+{
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+    padding-top: 40px;
+}
+#countdown {
+    text-align: center;
+    margin:  110px 0px 69px;
+    min-height: 104px;
+}
+#countdown > div {
+    width: 100px;
+    height: 100px;
+    margin: 0px 1%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 52px;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#countdown > div > span
+{
+	display: block;
+}
+.input-group-addon {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.sub-p
+{
+	font-size: 14px;
+	padding: 5px 0px 15px;
+}
+.social ul li
+{
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+}
+.section-padding
+{
+	padding: 60px;
+}
+.about-title h2
+{
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 10px;
+}
+.img
+{
+	margin-top: 30px;
+}
+.img i
+{
+	font-size: 44px;
+}
+.subcription-info 
+{
+    /* width: 40%; */
+    margin: 0 auto 50px;
+}
+.abt-hd
+{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px 15px;
+}
+.subscribe_form input[type=text] {
+    padding-left: 30px;
+}
+.contact-title i {
+    color: #FFFFFF;
+    font-size: 1.8em;
+    text-align: right;
+    display: block;
+    padding: 65px 0 0 0;
+}
+.contact-title h2
+{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0px 30px;
+}
+.contact-title p {
+    text-align: right;
+    margin-top: -5px;
+    color: rgba(236,240,241,0.9);
+    font-size: 13px;
+    word-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.contact input[type="text"], .contact input[type="email"] {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #EDEDED;
+    margin-bottom: 20px;
+    font-size: 13px;
+    outline: none;
+    color: #ffffff;
+}
+.social a i
+{
+    color: #fff;
+    display: block;
+    line-height: 48px;
+
+}
+.social a:hover
+{
+    text-decoration: none;
+}
+#contact-info
+{
+	padding: 0px;
+}
+.contact textarea {
+    width: 100%;
+    background: transparent;
+    font-size: 13px;
+    padding: 15px;
+    height: 100px;
+    border: 1px solid #EDEDED;
+    outline: none;
+    resize: none;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.contact-submit {
+    background-color: #24B7A4;
+    border: 2px solid #24B7A4;
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    word-spacing: 1px;
+    outline: none;
+    margin: 0 auto;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 700;
+    padding: 10px;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -ms-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block;
+}
+
+footer {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #242830;
+}
+.footer a
+{
+    color: #24B7A4;
+}
+.credits {
+    padding-top: 10px;
+}
+
+.subscribe_form {
+    position: relative;
+}
+.subscribe_form .subscribe {
+    right: 14px;
+    top: 0px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    color: #FFF;
+    background-color: #24B7A4;
+    border: medium none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: "Roboto Slab",serif;
+    font-size: 18px;
+}
+h2.subs-title  {
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    padding: 30px 0px 20px;
+}
+.subscribe_form input {
+    height: 50px;
+    border: none;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #000;
+}
+.subscribe_form input[type=email]
+{
+    padding-left: 30px;
+}
+
+.backgroundwhite {
+    background: rgb(236, 235, 235);
+    border-radius: 5%;
+}
+
+.pd10 {
+    padding-right: 10px;
+}
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 60%;
+        margin: 0 auto;
+}
+body{
+    overflow-x:hidden; 
+}
+}
+@media (min-width: 20px) and (max-width: 500px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 80%;
+        margin: 0 auto;
+}
+}
+
+.classa img{
+    margin-left: -12%;
+    padding-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.whiteback {
+    background: white;
+    -webkit-box-shadow: -8px 8px 5px 0px rgba(204,198,204,1);
+    -moz-box-shadow: -8px 8px 5px 0px rgba(204,198,204,1);
+    box-shadow: -8px 8px 5px 0px rgba(204,198,204,1);
+    margin-bottom: 5%;
+}
+
+.whiteback h2 {
+    margin-bottom: 10px !important;
+}
+
+.whitebackchild {
+    padding: 20px;
+}
+
+.tabcontent {
+    background: white;
+}
+
+.producttop {
+    background: white;
+    margin-top: 7%;
+}
+
+.padding0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.producttop h2 {
+    padding: 50px;
+    color: #602f81;
+}
+.whitebackground {
+    background: white;
+}
+.ptb30 {
+    padding: 30px 0;
+}
+.pl20 {
+    padding-left: 20px;
+}
+.mt10 {
+    margin-top: 10px !important;
+}
+@media screen and (max-width: 490px) {
+    #countdown > div {
+        width: 70px;
+        height: 70px;
+        margin: 0px 1%;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 30px;
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    #countdown > div > span
+    {
+        display: block;
+    }
+    .lappy {
+        display: none !important;
+    }
+    .phone {
+        display: block !important;
+    }
+}
+.lappy {
+    display: block;
+}
+.phone {
+    display: none;
+}
+
+.fordesktop {
+    display: block;
+}
+.forphone {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .fordesktop {
+        display: none;
+    }
+    .forphone {
+        display: block;
+    }
+}
+
+.pr5 {
+    padding-right: 5px !important;
+}
+
+.pl5 {
+    padding-left: 5px !important;
+}
+
+.whiteback1 {
+    background: white;
+    margin-bottom: 5%;
+    min-height: 168px;
+}
+
+.whiteback1 h2 {
+    margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 430px) {
+    .whiteback1 {
+        min-height: 200px;
+    }
+}

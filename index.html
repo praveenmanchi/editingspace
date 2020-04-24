@@ -1,0 +1,618 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <title>editingspace.com</title>
+  <meta name="description"
+    content="">
+  <meta name="keywords"
+    content="">
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600'
+    rel='stylesheet'
+    type='text/css'>
+  <link rel="stylesheet"
+    type="text/css"
+    href="css/font-awesome.min.css">
+  <link rel="stylesheet"
+    type="text/css"
+    href="css/bootstrap.min.css">
+  <link rel="stylesheet"
+    type="text/css"
+    href="css/animate.css">
+  <link rel="stylesheet"
+    type="text/css"
+    href="css/style.css">
+    <style>
+      li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  }
+
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  .abs {
+      position: absolute; 
+      bottom: 50px; 
+      left: 50px
+    }
+
+  @media screen and (max-width: 762px) {
+    .mt-2_xs {
+      margin-top: 5%;
+    }
+
+    .abs {
+      position: absolute; 
+      bottom: 30px; 
+      left: 50px
+    }
+  }
+  </style>
+</head>
+
+<body>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+        <button type="button" class="close" style="color: #F04D4D; opacity: 1; font-size: 24px" data-dismiss="modal">&times;</button>
+          <h2 style="color: #F04D4D">Thank You</h2>
+          <p style="opacity: 0.8">For Joining us with editingspace</p>
+          <div style="width: 100%; margin-top: -26px; text-align: right;">
+            <img src="img/Group%20232.svg" alt="">
+          </div>
+          <p style="opacity: 0.8; margin-top: -6%">You will be the first to know about offers, further updates and services</p>
+          <h2 style="color: #F04D4D">Stay Tuned.....!!!</h2>
+          <p style="opacity: 0.8">Follow us at</p>
+          <div style="width: 100%; padding-bottom: 20px; text-align: center">
+            <a target="_blank" href="https://www.facebook.com/Editingpacecom-103251711197268/?modal=admin_todo_tour"><button class="btn" style="background: #3b5999; color: white"><i class="fa fa-facebook" style="color: white; margin-right: 10px"></i>Facebook<button></a>
+            <a target="_blank" href="https://www.instagram.com/editingspace_com/"><button class="btn" style="background: #e4405f; color: white"><i class="fa fa-instagram" style="color: white; margin-right: 10px"></i>Instagram<button></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="content">
+    <div class="container wow fadeInUp delay-03s">
+      <div class="row">
+        <div class="logo text-center">
+          <div class="lappy">
+            <img src="img/logo.png"
+              alt="logo"
+              class="logo"
+              width="500">
+          </div>
+          <div class="phone">
+            <img src="img/logo.png"
+              alt="logo"
+              class="logo"
+              width="350">
+          </div>
+
+          <h2 style="font-size: 55px">Coming Soon...</h2>
+        </div>
+  <div class="w-100 text-center">
+          <ul class="timer">
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+  <h2 class="subs-title text-center">Subscribe now to get Recent updates!!!</h2>
+        <div class="subcription-info text-center">
+          <form class="subscribe_form"
+            action="#"
+            method="post">
+            <div class="row">
+              <div class="col-sm-offset-1 col-sm-4 col-xs-12">
+                <input style="margin-bottom: 2%" required=""
+                value=""
+                placeholder="Enter your mobile"
+                class="email"
+                name="phone"
+                type="text">
+              </div>
+              <div class="col-sm-6 col-xs-12">
+              <input required=""
+                value=""
+                placeholder="Enter your email..."
+                class="email"
+                id="email"
+                name="email"
+                type="email">
+                <input class="subscribe"
+                name="submitData"
+                value="Subscribe!"
+                type="submit">
+              </div>
+            </div>
+          </form>
+          
+          <p class="sub-p" style="margin-top: 20px">We Promise to never spam you.</p>
+        </div>
+      </div>
+    </div>
+    <!-- <section>
+      <div class="container">
+        <div class="row bort text-center">
+          <div class="social">
+            <ul>
+              <li>
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section>
+      <div class="container fordesktop">
+        <div class="row"
+          style="margin-top: 5%">
+          <div class="col-sm-5">
+            <div class="col-sm-12">
+              <div class="whiteback">
+                <div class="whitebackchild"
+                  onclick="openCity(event, 'firstdiv')">
+                  <div class="row">
+                    <div class="col-xs-4">
+                      <img src="img/edit.png"
+                        style="height: 40px;width:40px"
+                        class="img-responsive">
+                    </div>
+                    <div class="col-xs-8"
+                      style="margin-left: 3%">
+                      <h2 style="color: black">Photo edit</h2>
+                      <p style="color:black; opacity: 0.8">Don’t worry, We are here to help you</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="whiteback"
+                onclick="openCity(event, 'seconddiv')">
+                <div class="whitebackchild">
+                  <div class="row">
+                    <div class="col-xs-4">
+                      <img src="img/book.png"
+                        style="height: 40px;width:40px"
+                        class="img-responsive">
+                    </div>
+                    <div class="col-xs-8"
+                      style="margin-left: 3%">
+                      <h2 style="color: black">Book your Shoot</h2>
+                      <p style="color:black; opacity: 0.8">We are here to cover all function photo shoots</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-7">
+            <div id="firstdiv"
+              class="tabcontent">
+              <img src="img/carou1.jpg"
+                class="img-responsive"
+                style="width: 100%;height: 400px">
+              <div class="whitebackchild">
+                <h2 style="color: black">Photo Edit</h2>
+                <p style="color: black;opacity: 0.8;">Don’t you think your photo isn’t reflecting your precious moments
+                  or Did the photographer ruined your photo with your super hero??
+                </p>
+                <p style="color: black;opacity: 0.8;">
+                  Don’t worry, We are here to help you. Even a rock harshly polished turns into diamond. We surely will
+                  make your photos feed in our memory for a life time and strive until you smile at them. We work on a
+                  simple concept, memories do extend our life by a few years and we don’t want them to fade away.
+                </p>
+              </div>
+            </div>
+
+            <div id="seconddiv"
+              class="tabcontent">
+              <img src="img/carou2.jpg"
+                class="img-responsive"
+                style="width: 100%;height: 400px">
+              <div class="whitebackchild">
+                <h2 style="color: black">Don't worry we are here</h2>
+                <p style="color: black;opacity: 0.8;">Got a marriage function, Birthday party or just simply a model
+                  photo shoot, we are here to cover them all, we united the best photographers around, made available
+                  for you and it’s your turn to choose.</p>
+                <p style="color: black;opacity: 0.8;">Our photographers are equipped with the latest gadgets to capture
+                  your memories beyond your imagination which creates a wow factor in you. Through those captured
+                  moments we will definitely make you travel back in time.
+                  We believe in talent, quality and creativity, and thus reflects in our photographers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <img src="img/edit.png" style="width: 100%" />
+          </div>
+
+          <div class="col-xs-12 col-sm-6 mt-2_xs">
+            <img src="img/photo.png" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="container forphone">
+        <div class="row"
+          style="margin-top: 5%">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 pr5">
+                <div class="whiteback1">
+                  <div class="whitebackchild"
+                    onclick="openCity(event, 'thirddiv')">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="img/edit.png"
+                          style="height: 50px;width:50px"
+                          class="img-responsive">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h5 style="color: black">Photo edit</h5>
+                        <p style="color:black; opacity: 0.8">Don’t worry, We are here to help you</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 pl5">
+                <div class="whiteback1">
+                  <div class="whitebackchild"
+                    onclick="openCity(event, 'fourthdiv')">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="img/book.png"
+                          style="height: 50px;width:50px"
+                          class="img-responsive">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h5 style="color: black">Book your Shoot</h5>
+                        <p style="color:black; opacity: 0.8">We are here to cover all function photo shoots</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="thirddiv"
+                  class="tabcontent">
+                  <img src="img/carou1.jpg"
+                    class="img-responsive"
+                    style="width: 100%;height: 250px">
+                  <div class="whitebackchild">
+                    <h2 style="color: black">Photo Edit</h2>
+                    <p style="color: black;opacity: 0.8;">Don’t you think your photo isn’t reflecting your precious
+                      moments
+                      or Did the photographer ruined your photo with your super hero??
+                    </p>
+                    <p style="color: black;opacity: 0.8;">
+                      Don’t worry, We are here to help you. Even a rock harshly polished turns into diamond. We surely
+                      will
+                      make your photos feed in our memory for a life time and strive until you smile at them. We work
+                      on a
+                      simple concept, memories do extend our life by a few years and we don’t want them to fade away.
+                    </p>
+                  </div>
+                </div>
+                <div id="fourthdiv"
+                  class="tabcontent">
+                  <img src="img/carou2.jpg"
+                    class="img-responsive"
+                    style="width: 100%;height: 250px">
+                  <div class="whitebackchild">
+                    <h2 style="color: black">Don't worry we are here</h2>
+                    <p style="color: black;opacity: 0.8;">Got a marriage function, Birthday party or just simply a
+                      model
+                      photo shoot, we are here to cover them all, we united the best photographers around, made
+                      available
+                      for you and it’s your turn to choose.</p>
+                    <p style="color: black;opacity: 0.8;">Our photographers are equipped with the latest gadgets to
+                      capture
+                      your memories beyond your imagination which creates a wow factor in you. Through those captured
+                      moments we will definitely make you travel back in time.
+                      We believe in talent, quality and creativity, and thus reflects in our photographers.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section> -->
+    <section id="about"
+      class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp delay-02s">
+              <div class="img">
+                <i class="fa fa-refresh"></i>
+              </div>
+              <h3 class="abt-hd">Our process</h3>
+              <p>It is easy to book a photographer like never before.
+                We take your photos and bring life to them.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp delay-04s">
+            <div class="img">
+                <i class="fa fa-dot-circle-o"></i>
+              </div>
+              <h3 class="abt-hd">Our Objective</h3>
+              <p>To create the final products that meet clients intended purpose.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-08s">
+            <div class="img">
+                <i class="fa fa-eye"></i>
+              </div>
+              <h3 class="abt-hd">Our Vision</h3>
+              <p>Unite platform for photographers.
+                No matter how well you shoot your photos we make even more better.
+                We preserve memories for you.we surely will make the photos fed in our memory for a life time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center"
+          style="margin-top: 2%">
+          <div class="col-sm-12">
+            <div class="about-title">
+              <h2>About Us</h2>
+              <p>We provide a lifetime option to save your photos with us for free of cost</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="container"
+        style="padding: 10px 0; margin-bottom: 3%; background-image: url('img/bggallery.png'); background-attachment: fixed;background-position: center">
+        <div class="row">
+          <div class="col-sm-12 ptb30">
+            <div class="col-sm-9 col-xs-8">
+              <h2 class="pl20 mt10">Modern Photographers Gallery</h2>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+              <button class="btn"
+                style="background: orange;margin-top: 5px;"><a href="gallery.html"
+                  style="color: white;text-decoration: none">Click me for Gallery</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- photographers profile -->
+    <!-- <section>
+      <div class="container">
+        <div class="row"
+          style="margin-bottom: 5%">
+          <div class="col-sm-3 text-center">
+            <div class="col-sm-11 backgroundwhite wow bounceInUp" data-wow-delay="0.4s">
+              <img src="img/img1.jpg"
+                alt=""
+                style="height: 150px;width: 150px;border-radius: 50%;padding: 20px 0">
+              <h2 style="color: rgb(48, 47, 47)">Annie</h2>
+              <button class="btn"
+                style="background: orange;margin-bottom: 5%"><a href="gallery.html"
+                  style="color: white;text-decoration: none">My Gallery</a></button>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="col-sm-11 backgroundwhite wow bounceInUp" data-wow-delay="0.4s">
+              <img src="img/img1.jpg"
+                alt=""
+                style="height: 150px;width: 150px;border-radius: 50%;padding: 20px 0">
+              <h2 style="color: rgb(48, 47, 47)">Josh</h2>
+              <button class="btn"
+                style="background: orange;margin-bottom: 5%"><a href="gallery.html"
+                  style="color: white;text-decoration: none">My Gallery</a></button>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="col-sm-11 backgroundwhite wow bounceInUp" data-wow-delay="0.4s">
+              <img src="img/img1.jpg"
+                alt=""
+                style="height: 150px;width: 150px;border-radius: 50%;padding: 20px 0">
+              <h2 style="color: rgb(48, 47, 47)">Canny</h2>
+              <button class="btn"
+                style="background: orange;margin-bottom: 5%"><a href="gallery.html"
+                  style="color: white;text-decoration: none">My Gallery</a></button>
+            </div>
+          </div>
+          <div class="col-sm-3 text-center">
+            <div class="col-sm-11 backgroundwhite wow bounceInUp" data-wow-delay="0.4s">
+              <img src="img/img1.jpg"
+                alt=""
+                style="height: 150px;width: 150px;border-radius: 50%;padding: 20px 0">
+              <h2 style="color: rgb(48, 47, 47)">Ruby</h2>
+              <button class="btn"
+                style="background: orange;margin-bottom: 5%"><a href="gallery.html"
+                  style="color: white;text-decoration: none">My Gallery</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <div id="contact-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-title">
+              <i class="fa fa-envelope"></i>
+              <h2>Get in touch</h2>
+              <p>Our team works 24/7 for helping you with queries :
+                <br> <i class="fa fa-phone"
+                  style="padding: 15px 0 0 0 !important"> contact@editingspace.com</i></p>
+            </div>
+          </div>
+          <div class="contact col-md-6 wow fadeIn delay-08s" style="margin-bottom: 2%">
+            <div class="col-md-10 col-md-offset-1">
+              <div id="note"></div>
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="#"
+                method="post"
+                class="contactForm">
+                <div class="form-group">
+                  <input type="text"
+                    class="form-control"
+                    id="abcd"
+                    name="bottomName"
+                    required
+                    placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                  <input type="email"
+                    class="form-control"
+                    id="botemail"
+                    required
+                    placeholder="Your Email"
+                    name="bottomEmail" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text"
+                    class="form-control"
+                    id="phoneBot"
+                    required
+                    name="bottomPhone"
+                    placeholder="Phone" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control"
+                    rows="5"
+                    required
+                    name="bottomMessage"
+                    placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div class="text-center"><button type="submit" name="bottomForm"
+                    class="contact-submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+
+// $(window).load(function() {
+//   $('#myModal').modal('show');
+// });
+    document.addEventListener("DOMContentLoaded", function () {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[0].style.display = "block";
+        tabcontent[2].style.display = "block";
+      }
+
+      const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+      let countDown = new Date('JANUARY 01, 2021 00:00:00').getTime(),
+          x = setInterval(function() {
+
+            let now = new Date().getTime(),
+                distance = countDown - now;
+
+            document.getElementById('days').innerText = Math.floor(distance / (day)),
+              document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+              document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+              document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+            
+            //do something later when date is reached
+            //if (distance < 0) {
+            //  clearInterval(x);
+            //  'IT'S MY BIRTHDAY!;
+            //}
+
+          }, second)
+    });
+
+
+    function openCity(evt, divname) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the link that opened the tab
+      document.getElementById(divname).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+</body>
+
+
+<!-- Mirrored from www.editingspace.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:08:21 GMT -->
+</html>
